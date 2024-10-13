@@ -1,15 +1,16 @@
+import school.managment.Student;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
-    }
+
+    Student student1 = new Student("Ariana", 23, 154673);
+    Student student2 = new Student("Bob", 23, 154673);
+    Student student3 = new Student("Jack", 23, 154673);
+
+    student1.enrollCourses( new String[] {"Math", "Science"});
+    student2.enrollCourses()
+
+
 }
