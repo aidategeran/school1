@@ -27,7 +27,7 @@ public class Student extends Person {
         return tuition;
     }
 
-    public void setTuition(double tuition) {
+    public void setTuition() {
         this.tuition = enrolledCourses.length * 500;
     }
 
