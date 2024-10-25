@@ -9,6 +9,10 @@ public class CourseManager {
         this.studentCount = 0;
     }
 
+    public CourseManager() {
+
+    }
+
     public void addStudent(Student student) {
         if (studentCount < students.length) {
             students[studentCount++] = student;
